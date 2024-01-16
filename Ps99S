@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Premium PSX HUB", "BloodTheme")
+local Window = Library.CreateLib("PREMIUM SCRIPT EVS", "BloodTheme")
 
 
 local Main = Window:NewTab("Please Read")
@@ -63,8 +63,8 @@ end)
 
 
 --sixth
-local DayCareItemDupe = Window:NewTab("DayCare Item Dupe")
-local DayCareItemDupeSection = DayCareItemDupe:NewSection("DayCare Item Dupe")
+local DayCareItemDupe = Window:NewTab("Soon")
+local DayCareItemDupeSection = Pet Changer:NewSection("Click to See Menu")
 
 
 DayCareItemDupeSection:NewButton("DayCare Item Dupe", "Dupes The Items You Get In DayCare", function()
